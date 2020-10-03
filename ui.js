@@ -15,7 +15,6 @@ class UI {
     this.location.textContent = weather.location.name
     this.desc.textContent = weather.current.weather_descriptions
     this.string.textContent = weather.current.temperature
-    this.details.textContent = weather.location.name
     this.icon.setAttribute('src', weather.current.weather_icons)
     this.humidity.textContent = `Humidity: ${weather.current.humidity}`
     this.feelsLike.textContent = `Feels Like: ${weather.current.feelslike}`
